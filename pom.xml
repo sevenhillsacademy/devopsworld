@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.amex.test</groupId>
-	<artifactId>devopsworld.com</artifactId>
-        <version>1.2.0</version>
+	<artifactId>devopsworld</artifactId>
+        <version>1.2.01</version>
 	<packaging>war</packaging>
 	<name>DevOps World Web Application </name>
 	<description>Simple Java Web Application</description>
