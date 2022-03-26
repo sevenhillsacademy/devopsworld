@@ -3,9 +3,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.amex.test</groupId>
 	<artifactId>devopsworld</artifactId>
-        <version>1.2.02</version>
+        <version>1.2.0.02</version>
 	<packaging>war</packaging>
-	<name>DevOps World Web Application </name>
+	<name>DevOps World Web Application atp</name>
 	<description>Simple Java Web Application</description>
 
 	<build>
