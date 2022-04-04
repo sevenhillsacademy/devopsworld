@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
     <version>0.1-SNAPSHOT</version>
 
-	<name>DevOps World Web Application </name>
+	<name>DevOps World Web Application written in JAVA </name>
 	<description>Simple Java Web Application</description>
 
 	<organization>
