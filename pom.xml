@@ -3,10 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>sevenhills.com</groupId>
-	<artifactId>devopsworld</artifactId>
+  <artifactId>devopsworld</artifactId>
+        <version>1.2.0.02</version>
+	<packaging>war</packaging>
+	<name>DevOps World Web Application atp</name>
 	<packaging>war</packaging>
     <version>0.1-SNAPSHOT</version>
-
 	<name>DevOps World Web Application</name>
 	<description>Simple Java Web Application</description>
 
@@ -55,7 +57,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.1.1</version>
+				<version>2.1.1.0</version>
 			</plugin>
 		</plugins>
 	</build>
