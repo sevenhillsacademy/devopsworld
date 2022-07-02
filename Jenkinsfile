@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage("source code") {
+        stage("Checkout code") {
             steps {
                 echo 'Getting the source from GitHub'
-                git branch: 'dev', changelog: false, poll: false, url: 'https://github.com/sevenhillsacademy/devopsworld.git'
+                git branch: 'dev_api', changelog: false, poll: false, url: 'https://github.com/sevenhillsacademy/devopsworld.git'
             }
         }
         stage("Build") {
