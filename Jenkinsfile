@@ -13,6 +13,12 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
+        stage("Code Quality Analysis") {
+            steps {
+                echo 'Code Quality Analysis by SonarQube'
+                sh 'mvn clean package sonar:sonar'
+            }
+        }
         stage("Deploy") {
             steps {
                 echo 'Deploy the war into WebServer'
