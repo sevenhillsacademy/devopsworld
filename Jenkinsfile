@@ -13,5 +13,11 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
+        stage("Deploy") {
+            steps {
+                echo 'Deploy the war into WebServer'
+                deploy adapters: [tomcat9(credentialsId: 'tomcatadmin', path: '', url: 'http://3.87.14.43:8000/')], contextPath: 'devopsworld2022', war: '**/*.war'
+            }
+        }
     }
 }
