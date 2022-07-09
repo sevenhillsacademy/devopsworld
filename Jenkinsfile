@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { node { label 'uat' } }
     stages {
         stage("source code") {
             steps {
