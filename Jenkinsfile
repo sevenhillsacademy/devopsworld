@@ -22,7 +22,7 @@ pipeline {
         stage("Deploy") {
             steps {
                 echo 'Deploy the war into WebServer'
-                deploy adapters: [tomcat9(credentialsId: 'tomcatadmin', path: '', url: 'http://3.87.14.43:8000/')], contextPath: 'devopsworld2022', war: '**/*.war'
+                deploy adapters: [tomcat9(credentialsId: 'tomcatadmin', path: '', url: 'http://54.209.185.165/:8000/')], contextPath: 'devopsworld2022', war: '**/*.war'
             }
         }
     }
